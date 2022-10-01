@@ -5,29 +5,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Actividad 2</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="img/icono.jpg">
+        <link rel="stylesheet" href="css/style.css"> <!-- Enlace a mis estilos css -->
+        <link rel="icon" href="img/icono.jpg"> <!-- Enlace a mis imagenes -->
     </head>
     <body>
+        <!-- 1r Parte Cabezera -->
         <header class="cabecera">
             <h1>Activitat 2</h1>
             <p>Segona pràctica de padding, margin, border, width, display....</p>
         </header>
+        <!-- 2n Parte Estructura del cuerpo de la pagina -->
         <main class="cuerpo">
+            <!-- Navegación de diversos Menus Parte Izquierda (no pongo enlace (a)) -->
             <div class="izquierda">
                 <div>Menu 1</div>
                 <div>Menu 2</div>
                 <div>Menu 3</div>
                 <div>Menu 4</div>
             </div>
+            <!-- Parte Derecha Comenzar con su estructura -->
             <div class="derecha">
-                <article class="articulo">
+                <!-- Comenzar con un articulo que engloble todo -->
+                <article class="articulo"> 
+                    <!-- 1r Parte del articulo Introducción titulo + texto -->
                     <div class="parteI">
                         <h2>Títol de l'article</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, minus. Obcaecati sapiente modi impedit commodi provident iste, ad quo inventore earum quasi, totam quidem omnis maiores, consectetur repellat quae deserunt?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, minus. Obcaecati sapiente modi impedit commodi provident iste, ad quo inventore earum quasi, totam quidem omnis maiores, consectetur repellat quae deserunt?</p>
                     </div>
+                    <!-- 2n Parte del articulo contener las 3 imagenes con su respectivo titulo, un texto y para poder acceder al articulo con mas información (No redirige a ningun sitio)-->
                     <div class="parteM">
                         <div class="borde">
+                            <!-- Empezar a Utilizar flex para ajustar los divs -->
                             <div class="contenedor_flex">
                                 <div class="contenedor_img">
                                     <img src="img/calendar.png" alt="Calendario">
@@ -50,14 +58,17 @@
                             </div>
                         </div>
                     </div>
-                    <img class="imagen_grande" src="img/thumb.png" alt="Programming languages">
+                    <!-- Esta imagen esta fuera de los divs ya que es una imagen al 100% de ancho de todo el articulo y no quiero que este al mismo width que las imagenes o los divs-->
+                    <img class="imagen_grande" src="img/thumb.png" alt="PROGRAMMING LANGUAGES">
                 </article>
             </div>
         </main>
-
+        <!-- 3n Parte Pie de Pagina -->
         <footer class="piePagina">
+            <!-- Hacer otro contenedor para el posicióamiento del texto con FLEX -->
             <div class="contenedor_flex">
-                <div class="bordeP">
+                <div class="bordeP"> <!-- Hacer un borde que tenga un 100% de ancho -->
+                    <!-- La etiqueta span es para canviar el texto de dentro y resaltarlo -->
                     <p>Pràctica feta per: <span>Oriol Roca</span></p>
                 </div>
             </div>
